@@ -7,7 +7,7 @@ export default function App() {
 
   const submit = async () => {
     const data = input.split(",");
-    const res = await fetch("http://localhost:3000/bfhl", {
+    const res = await fetch("https://full-stack-bajaj-0rvo.onrender.com/bfhl", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
